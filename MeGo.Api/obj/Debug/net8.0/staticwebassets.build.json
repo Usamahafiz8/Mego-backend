@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9d1gQrGdMzNXRplJDUDPs7a0r7ZSyFwABLjuzlNLPqs=",
+  "Hash": "zV0RjYFzPBtEA2PLF4GxmxLBB+MUoTD16RXI9K/cpGA=",
   "Source": "MeGo.Api",
   "BasePath": "_content/MeGo.Api",
   "Mode": "Default",
@@ -8,19 +8,19 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "MeGo.Api\\wwwroot",
+      "Name": "MeGo.Api/wwwroot",
       "Source": "MeGo.Api",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\088fb600-408e-4784-8bc0-2b189006a1a3.jpeg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/088fb600-408e-4784-8bc0-2b189006a1a3.jpeg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/088fb600-408e-4784-8bc0-2b189006a1a3.jpeg",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\088fb600-408e-4784-8bc0-2b189006a1a3.jpeg"
+      "OriginalItemSpec": "wwwroot/uploads/088fb600-408e-4784-8bc0-2b189006a1a3.jpeg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\0938b30d-6ff0-4b7c-8f1f-7b0ec6df6f68_ip2.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/0938b30d-6ff0-4b7c-8f1f-7b0ec6df6f68_ip2.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/0938b30d-6ff0-4b7c-8f1f-7b0ec6df6f68_ip2.jpg",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\0938b30d-6ff0-4b7c-8f1f-7b0ec6df6f68_ip2.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/0938b30d-6ff0-4b7c-8f1f-7b0ec6df6f68_ip2.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\09d50f63-6e27-4c8f-9260-f6aceca85b20_photo_0.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/09d50f63-6e27-4c8f-9260-f6aceca85b20_photo_0.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/09d50f63-6e27-4c8f-9260-f6aceca85b20_photo_0.jpg",
       "AssetKind": "All",
@@ -71,13 +71,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\09d50f63-6e27-4c8f-9260-f6aceca85b20_photo_0.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/09d50f63-6e27-4c8f-9260-f6aceca85b20_photo_0.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\0af4642d-db6b-4100-88db-3c41be87cb22_photo_0.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/0af4642d-db6b-4100-88db-3c41be87cb22_photo_0.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/0af4642d-db6b-4100-88db-3c41be87cb22_photo_0.jpg",
       "AssetKind": "All",
@@ -90,13 +90,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\0af4642d-db6b-4100-88db-3c41be87cb22_photo_0.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/0af4642d-db6b-4100-88db-3c41be87cb22_photo_0.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\0d890281-6fb7-48dc-8adb-4ed0176d4891.jpeg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/0d890281-6fb7-48dc-8adb-4ed0176d4891.jpeg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/0d890281-6fb7-48dc-8adb-4ed0176d4891.jpeg",
       "AssetKind": "All",
@@ -109,13 +109,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\0d890281-6fb7-48dc-8adb-4ed0176d4891.jpeg"
+      "OriginalItemSpec": "wwwroot/uploads/0d890281-6fb7-48dc-8adb-4ed0176d4891.jpeg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\11394e7a-838f-45cb-a45d-2374fefc25b9.3gp",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/11394e7a-838f-45cb-a45d-2374fefc25b9.3gp",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/11394e7a-838f-45cb-a45d-2374fefc25b9.3gp",
       "AssetKind": "All",
@@ -128,13 +128,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\11394e7a-838f-45cb-a45d-2374fefc25b9.3gp"
+      "OriginalItemSpec": "wwwroot/uploads/11394e7a-838f-45cb-a45d-2374fefc25b9.3gp"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\121eb603-3855-4272-9f89-9d07cab11825.jpeg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/121eb603-3855-4272-9f89-9d07cab11825.jpeg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/121eb603-3855-4272-9f89-9d07cab11825.jpeg",
       "AssetKind": "All",
@@ -147,13 +147,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\121eb603-3855-4272-9f89-9d07cab11825.jpeg"
+      "OriginalItemSpec": "wwwroot/uploads/121eb603-3855-4272-9f89-9d07cab11825.jpeg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\15a04f37-3bed-45cc-b131-edab69df308e.m4a",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/15a04f37-3bed-45cc-b131-edab69df308e.m4a",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/15a04f37-3bed-45cc-b131-edab69df308e.m4a",
       "AssetKind": "All",
@@ -166,13 +166,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\15a04f37-3bed-45cc-b131-edab69df308e.m4a"
+      "OriginalItemSpec": "wwwroot/uploads/15a04f37-3bed-45cc-b131-edab69df308e.m4a"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\16a371ba-dd29-4085-90b8-1054577635a7.jpeg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/16a371ba-dd29-4085-90b8-1054577635a7.jpeg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/16a371ba-dd29-4085-90b8-1054577635a7.jpeg",
       "AssetKind": "All",
@@ -185,13 +185,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\16a371ba-dd29-4085-90b8-1054577635a7.jpeg"
+      "OriginalItemSpec": "wwwroot/uploads/16a371ba-dd29-4085-90b8-1054577635a7.jpeg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\1d8f7c1d-06dc-451a-bf94-8017fc163450.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/1d8f7c1d-06dc-451a-bf94-8017fc163450.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/1d8f7c1d-06dc-451a-bf94-8017fc163450.jpg",
       "AssetKind": "All",
@@ -204,13 +204,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\1d8f7c1d-06dc-451a-bf94-8017fc163450.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/1d8f7c1d-06dc-451a-bf94-8017fc163450.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\1dd0f174-895d-4bff-bddb-d2743618c45b_photo_0.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/1dd0f174-895d-4bff-bddb-d2743618c45b_photo_0.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/1dd0f174-895d-4bff-bddb-d2743618c45b_photo_0.jpg",
       "AssetKind": "All",
@@ -223,13 +223,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\1dd0f174-895d-4bff-bddb-d2743618c45b_photo_0.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/1dd0f174-895d-4bff-bddb-d2743618c45b_photo_0.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\21cf30ae-b2cc-40c2-9870-07e164297528.jpeg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/21cf30ae-b2cc-40c2-9870-07e164297528.jpeg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/21cf30ae-b2cc-40c2-9870-07e164297528.jpeg",
       "AssetKind": "All",
@@ -242,13 +242,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\21cf30ae-b2cc-40c2-9870-07e164297528.jpeg"
+      "OriginalItemSpec": "wwwroot/uploads/21cf30ae-b2cc-40c2-9870-07e164297528.jpeg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\22b09037-8c7d-4469-bd2d-9c202a4ea422.png",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/22b09037-8c7d-4469-bd2d-9c202a4ea422.png",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/22b09037-8c7d-4469-bd2d-9c202a4ea422.png",
       "AssetKind": "All",
@@ -261,13 +261,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\22b09037-8c7d-4469-bd2d-9c202a4ea422.png"
+      "OriginalItemSpec": "wwwroot/uploads/22b09037-8c7d-4469-bd2d-9c202a4ea422.png"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\245be309-8d14-4f1f-a66f-72aa5a17c612.jpeg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/245be309-8d14-4f1f-a66f-72aa5a17c612.jpeg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/245be309-8d14-4f1f-a66f-72aa5a17c612.jpeg",
       "AssetKind": "All",
@@ -280,13 +280,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\245be309-8d14-4f1f-a66f-72aa5a17c612.jpeg"
+      "OriginalItemSpec": "wwwroot/uploads/245be309-8d14-4f1f-a66f-72aa5a17c612.jpeg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\259c8791-b832-43df-bfb8-2a9291325dfc_c1.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/259c8791-b832-43df-bfb8-2a9291325dfc_c1.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/259c8791-b832-43df-bfb8-2a9291325dfc_c1.jpg",
       "AssetKind": "All",
@@ -299,13 +299,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\259c8791-b832-43df-bfb8-2a9291325dfc_c1.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/259c8791-b832-43df-bfb8-2a9291325dfc_c1.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\2e75dd72-0554-4cd0-808e-ef48a4237687.jpeg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/2e75dd72-0554-4cd0-808e-ef48a4237687.jpeg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/2e75dd72-0554-4cd0-808e-ef48a4237687.jpeg",
       "AssetKind": "All",
@@ -318,13 +318,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\2e75dd72-0554-4cd0-808e-ef48a4237687.jpeg"
+      "OriginalItemSpec": "wwwroot/uploads/2e75dd72-0554-4cd0-808e-ef48a4237687.jpeg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\3476b3c5-c03d-4deb-8747-03aba28a3f35.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/3476b3c5-c03d-4deb-8747-03aba28a3f35.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/3476b3c5-c03d-4deb-8747-03aba28a3f35.jpg",
       "AssetKind": "All",
@@ -337,13 +337,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\3476b3c5-c03d-4deb-8747-03aba28a3f35.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/3476b3c5-c03d-4deb-8747-03aba28a3f35.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\34b08863-f485-48d5-90d2-83f2d32ac571_photo_0.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/34b08863-f485-48d5-90d2-83f2d32ac571_photo_0.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/34b08863-f485-48d5-90d2-83f2d32ac571_photo_0.jpg",
       "AssetKind": "All",
@@ -356,13 +356,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\34b08863-f485-48d5-90d2-83f2d32ac571_photo_0.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/34b08863-f485-48d5-90d2-83f2d32ac571_photo_0.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\35446912-11a2-486a-9e6d-2a7cea19530f.jpeg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/35446912-11a2-486a-9e6d-2a7cea19530f.jpeg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/35446912-11a2-486a-9e6d-2a7cea19530f.jpeg",
       "AssetKind": "All",
@@ -375,13 +375,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\35446912-11a2-486a-9e6d-2a7cea19530f.jpeg"
+      "OriginalItemSpec": "wwwroot/uploads/35446912-11a2-486a-9e6d-2a7cea19530f.jpeg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\37b588bd-3a32-450a-ae4b-60bff994c4cb_ip1.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/37b588bd-3a32-450a-ae4b-60bff994c4cb_ip1.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/37b588bd-3a32-450a-ae4b-60bff994c4cb_ip1.jpg",
       "AssetKind": "All",
@@ -394,13 +394,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\37b588bd-3a32-450a-ae4b-60bff994c4cb_ip1.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/37b588bd-3a32-450a-ae4b-60bff994c4cb_ip1.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\3b78d892-0c7a-4d14-a705-c8017322f870_photo_0.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/3b78d892-0c7a-4d14-a705-c8017322f870_photo_0.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/3b78d892-0c7a-4d14-a705-c8017322f870_photo_0.jpg",
       "AssetKind": "All",
@@ -413,13 +413,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\3b78d892-0c7a-4d14-a705-c8017322f870_photo_0.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/3b78d892-0c7a-4d14-a705-c8017322f870_photo_0.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\3cc2bd6e-d1ad-46ff-9287-3a44007866d6.png",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/3cc2bd6e-d1ad-46ff-9287-3a44007866d6.png",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/3cc2bd6e-d1ad-46ff-9287-3a44007866d6.png",
       "AssetKind": "All",
@@ -432,13 +432,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\3cc2bd6e-d1ad-46ff-9287-3a44007866d6.png"
+      "OriginalItemSpec": "wwwroot/uploads/3cc2bd6e-d1ad-46ff-9287-3a44007866d6.png"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\3d1ae4a2-84dc-4fd1-aeb5-e74d8ea23a01_ip2.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/3d1ae4a2-84dc-4fd1-aeb5-e74d8ea23a01_ip2.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/3d1ae4a2-84dc-4fd1-aeb5-e74d8ea23a01_ip2.jpg",
       "AssetKind": "All",
@@ -451,13 +451,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\3d1ae4a2-84dc-4fd1-aeb5-e74d8ea23a01_ip2.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/3d1ae4a2-84dc-4fd1-aeb5-e74d8ea23a01_ip2.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\3d4e7ada-5fa8-4131-a3c1-9bdf3aa51f53_ip1.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/3d4e7ada-5fa8-4131-a3c1-9bdf3aa51f53_ip1.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/3d4e7ada-5fa8-4131-a3c1-9bdf3aa51f53_ip1.jpg",
       "AssetKind": "All",
@@ -470,13 +470,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\3d4e7ada-5fa8-4131-a3c1-9bdf3aa51f53_ip1.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/3d4e7ada-5fa8-4131-a3c1-9bdf3aa51f53_ip1.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\3f3c8ce7-ff0b-43d8-b9ef-cc0873d08106.m4a",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/3f3c8ce7-ff0b-43d8-b9ef-cc0873d08106.m4a",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/3f3c8ce7-ff0b-43d8-b9ef-cc0873d08106.m4a",
       "AssetKind": "All",
@@ -489,13 +489,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\3f3c8ce7-ff0b-43d8-b9ef-cc0873d08106.m4a"
+      "OriginalItemSpec": "wwwroot/uploads/3f3c8ce7-ff0b-43d8-b9ef-cc0873d08106.m4a"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\40cd071b-97a2-449a-8005-e665bf729148.jpeg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/40cd071b-97a2-449a-8005-e665bf729148.jpeg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/40cd071b-97a2-449a-8005-e665bf729148.jpeg",
       "AssetKind": "All",
@@ -508,13 +508,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\40cd071b-97a2-449a-8005-e665bf729148.jpeg"
+      "OriginalItemSpec": "wwwroot/uploads/40cd071b-97a2-449a-8005-e665bf729148.jpeg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\43c1d070-f752-4f42-8a32-4a118079e54d.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/43c1d070-f752-4f42-8a32-4a118079e54d.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/43c1d070-f752-4f42-8a32-4a118079e54d.jpg",
       "AssetKind": "All",
@@ -527,13 +527,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\43c1d070-f752-4f42-8a32-4a118079e54d.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/43c1d070-f752-4f42-8a32-4a118079e54d.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\4bd870f5-aaec-40b8-969b-75668799537f.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/4bd870f5-aaec-40b8-969b-75668799537f.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/4bd870f5-aaec-40b8-969b-75668799537f.jpg",
       "AssetKind": "All",
@@ -546,13 +546,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\4bd870f5-aaec-40b8-969b-75668799537f.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/4bd870f5-aaec-40b8-969b-75668799537f.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\4bea8971-9af0-4406-ac42-a657fe26e6a1.jpeg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/4bea8971-9af0-4406-ac42-a657fe26e6a1.jpeg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/4bea8971-9af0-4406-ac42-a657fe26e6a1.jpeg",
       "AssetKind": "All",
@@ -565,13 +565,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\4bea8971-9af0-4406-ac42-a657fe26e6a1.jpeg"
+      "OriginalItemSpec": "wwwroot/uploads/4bea8971-9af0-4406-ac42-a657fe26e6a1.jpeg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\4c8f3eba-15e1-4100-ba62-da555b03a65a_photo_0.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/4c8f3eba-15e1-4100-ba62-da555b03a65a_photo_0.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/4c8f3eba-15e1-4100-ba62-da555b03a65a_photo_0.jpg",
       "AssetKind": "All",
@@ -584,13 +584,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\4c8f3eba-15e1-4100-ba62-da555b03a65a_photo_0.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/4c8f3eba-15e1-4100-ba62-da555b03a65a_photo_0.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\4db62d06-58c8-4ff9-ba3a-1aaea172b28f_photo_0.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/4db62d06-58c8-4ff9-ba3a-1aaea172b28f_photo_0.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/4db62d06-58c8-4ff9-ba3a-1aaea172b28f_photo_0.jpg",
       "AssetKind": "All",
@@ -603,13 +603,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\4db62d06-58c8-4ff9-ba3a-1aaea172b28f_photo_0.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/4db62d06-58c8-4ff9-ba3a-1aaea172b28f_photo_0.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\4e1f228e-6998-4709-88ff-9261d9fa1f18.3gp",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/4e1f228e-6998-4709-88ff-9261d9fa1f18.3gp",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/4e1f228e-6998-4709-88ff-9261d9fa1f18.3gp",
       "AssetKind": "All",
@@ -622,13 +622,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\4e1f228e-6998-4709-88ff-9261d9fa1f18.3gp"
+      "OriginalItemSpec": "wwwroot/uploads/4e1f228e-6998-4709-88ff-9261d9fa1f18.3gp"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\506be17c-9425-47f2-8afe-cde38647ea4f_photo_0.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/506be17c-9425-47f2-8afe-cde38647ea4f_photo_0.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/506be17c-9425-47f2-8afe-cde38647ea4f_photo_0.jpg",
       "AssetKind": "All",
@@ -641,13 +641,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\506be17c-9425-47f2-8afe-cde38647ea4f_photo_0.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/506be17c-9425-47f2-8afe-cde38647ea4f_photo_0.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\51255ca3-83ef-4894-91a5-635878f3e0a7.jpeg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/51255ca3-83ef-4894-91a5-635878f3e0a7.jpeg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/51255ca3-83ef-4894-91a5-635878f3e0a7.jpeg",
       "AssetKind": "All",
@@ -660,13 +660,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\51255ca3-83ef-4894-91a5-635878f3e0a7.jpeg"
+      "OriginalItemSpec": "wwwroot/uploads/51255ca3-83ef-4894-91a5-635878f3e0a7.jpeg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\5130b7a2-1003-48a5-94f1-893c8edcb0fe.3gp",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/5130b7a2-1003-48a5-94f1-893c8edcb0fe.3gp",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/5130b7a2-1003-48a5-94f1-893c8edcb0fe.3gp",
       "AssetKind": "All",
@@ -679,13 +679,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\5130b7a2-1003-48a5-94f1-893c8edcb0fe.3gp"
+      "OriginalItemSpec": "wwwroot/uploads/5130b7a2-1003-48a5-94f1-893c8edcb0fe.3gp"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\527a1f6f-8318-4604-a04a-7579fa19b421.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/527a1f6f-8318-4604-a04a-7579fa19b421.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/527a1f6f-8318-4604-a04a-7579fa19b421.jpg",
       "AssetKind": "All",
@@ -698,13 +698,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\527a1f6f-8318-4604-a04a-7579fa19b421.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/527a1f6f-8318-4604-a04a-7579fa19b421.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\54ac2fc3-2e2e-4981-b661-acd196949e8c_photo_0.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/54ac2fc3-2e2e-4981-b661-acd196949e8c_photo_0.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/54ac2fc3-2e2e-4981-b661-acd196949e8c_photo_0.jpg",
       "AssetKind": "All",
@@ -717,13 +717,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\54ac2fc3-2e2e-4981-b661-acd196949e8c_photo_0.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/54ac2fc3-2e2e-4981-b661-acd196949e8c_photo_0.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\5e6c9b72-b3c0-447c-95ff-a4603f436ce9.png",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/5e6c9b72-b3c0-447c-95ff-a4603f436ce9.png",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/5e6c9b72-b3c0-447c-95ff-a4603f436ce9.png",
       "AssetKind": "All",
@@ -736,13 +736,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\5e6c9b72-b3c0-447c-95ff-a4603f436ce9.png"
+      "OriginalItemSpec": "wwwroot/uploads/5e6c9b72-b3c0-447c-95ff-a4603f436ce9.png"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\600d87c4-c60f-49f8-9de1-f2b5fc413894_photo_0.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/600d87c4-c60f-49f8-9de1-f2b5fc413894_photo_0.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/600d87c4-c60f-49f8-9de1-f2b5fc413894_photo_0.jpg",
       "AssetKind": "All",
@@ -755,13 +755,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\600d87c4-c60f-49f8-9de1-f2b5fc413894_photo_0.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/600d87c4-c60f-49f8-9de1-f2b5fc413894_photo_0.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\616a868f-645b-413e-ab68-0eac73f6e2b7_photo_0.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/616a868f-645b-413e-ab68-0eac73f6e2b7_photo_0.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/616a868f-645b-413e-ab68-0eac73f6e2b7_photo_0.jpg",
       "AssetKind": "All",
@@ -774,13 +774,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\616a868f-645b-413e-ab68-0eac73f6e2b7_photo_0.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/616a868f-645b-413e-ab68-0eac73f6e2b7_photo_0.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\62d37451-5375-4def-a4fc-36ec9a8a3083.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/62d37451-5375-4def-a4fc-36ec9a8a3083.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/62d37451-5375-4def-a4fc-36ec9a8a3083.jpg",
       "AssetKind": "All",
@@ -793,13 +793,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\62d37451-5375-4def-a4fc-36ec9a8a3083.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/62d37451-5375-4def-a4fc-36ec9a8a3083.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\69408689-0f39-43e4-8eb2-552e8c6fe300.m4a",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/69408689-0f39-43e4-8eb2-552e8c6fe300.m4a",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/69408689-0f39-43e4-8eb2-552e8c6fe300.m4a",
       "AssetKind": "All",
@@ -812,13 +812,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\69408689-0f39-43e4-8eb2-552e8c6fe300.m4a"
+      "OriginalItemSpec": "wwwroot/uploads/69408689-0f39-43e4-8eb2-552e8c6fe300.m4a"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\6a441357-7da1-4baa-bafd-57ac8486e7f8_c1.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/6a441357-7da1-4baa-bafd-57ac8486e7f8_c1.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/6a441357-7da1-4baa-bafd-57ac8486e7f8_c1.jpg",
       "AssetKind": "All",
@@ -831,13 +831,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\6a441357-7da1-4baa-bafd-57ac8486e7f8_c1.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/6a441357-7da1-4baa-bafd-57ac8486e7f8_c1.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\6cb56b75-a0c4-44a0-b0d7-e16f81abda71.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/6cb56b75-a0c4-44a0-b0d7-e16f81abda71.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/6cb56b75-a0c4-44a0-b0d7-e16f81abda71.jpg",
       "AssetKind": "All",
@@ -850,13 +850,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\6cb56b75-a0c4-44a0-b0d7-e16f81abda71.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/6cb56b75-a0c4-44a0-b0d7-e16f81abda71.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\6ef72b91-a348-4451-8358-29329f60e26f.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/6ef72b91-a348-4451-8358-29329f60e26f.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/6ef72b91-a348-4451-8358-29329f60e26f.jpg",
       "AssetKind": "All",
@@ -869,13 +869,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\6ef72b91-a348-4451-8358-29329f60e26f.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/6ef72b91-a348-4451-8358-29329f60e26f.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\7213f902-3767-4050-abeb-e4b89a314e22.m4a",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/7213f902-3767-4050-abeb-e4b89a314e22.m4a",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/7213f902-3767-4050-abeb-e4b89a314e22.m4a",
       "AssetKind": "All",
@@ -888,13 +888,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\7213f902-3767-4050-abeb-e4b89a314e22.m4a"
+      "OriginalItemSpec": "wwwroot/uploads/7213f902-3767-4050-abeb-e4b89a314e22.m4a"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\73359d33-bb33-4730-9736-0fe02867135e.jpeg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/73359d33-bb33-4730-9736-0fe02867135e.jpeg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/73359d33-bb33-4730-9736-0fe02867135e.jpeg",
       "AssetKind": "All",
@@ -907,13 +907,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\73359d33-bb33-4730-9736-0fe02867135e.jpeg"
+      "OriginalItemSpec": "wwwroot/uploads/73359d33-bb33-4730-9736-0fe02867135e.jpeg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\7d5bb2e1-ed17-4fc1-8b50-72cfad3fcc1d.png",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/7d5bb2e1-ed17-4fc1-8b50-72cfad3fcc1d.png",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/7d5bb2e1-ed17-4fc1-8b50-72cfad3fcc1d.png",
       "AssetKind": "All",
@@ -926,13 +926,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\7d5bb2e1-ed17-4fc1-8b50-72cfad3fcc1d.png"
+      "OriginalItemSpec": "wwwroot/uploads/7d5bb2e1-ed17-4fc1-8b50-72cfad3fcc1d.png"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\7d8aad12-8e89-4fe4-825d-d3dadec08dd9.3gp",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/7d8aad12-8e89-4fe4-825d-d3dadec08dd9.3gp",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/7d8aad12-8e89-4fe4-825d-d3dadec08dd9.3gp",
       "AssetKind": "All",
@@ -945,13 +945,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\7d8aad12-8e89-4fe4-825d-d3dadec08dd9.3gp"
+      "OriginalItemSpec": "wwwroot/uploads/7d8aad12-8e89-4fe4-825d-d3dadec08dd9.3gp"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\7f5795fa-90c2-428e-ad1f-a1e7a12e32a5.m4a",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/7f5795fa-90c2-428e-ad1f-a1e7a12e32a5.m4a",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/7f5795fa-90c2-428e-ad1f-a1e7a12e32a5.m4a",
       "AssetKind": "All",
@@ -964,13 +964,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\7f5795fa-90c2-428e-ad1f-a1e7a12e32a5.m4a"
+      "OriginalItemSpec": "wwwroot/uploads/7f5795fa-90c2-428e-ad1f-a1e7a12e32a5.m4a"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\82842537-6a6f-4f8a-95bf-d95d7d439272.jpeg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/82842537-6a6f-4f8a-95bf-d95d7d439272.jpeg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/82842537-6a6f-4f8a-95bf-d95d7d439272.jpeg",
       "AssetKind": "All",
@@ -983,13 +983,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\82842537-6a6f-4f8a-95bf-d95d7d439272.jpeg"
+      "OriginalItemSpec": "wwwroot/uploads/82842537-6a6f-4f8a-95bf-d95d7d439272.jpeg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\83146ff6-e614-4d1d-9a43-58b3b05a83e4.jpeg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/83146ff6-e614-4d1d-9a43-58b3b05a83e4.jpeg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/83146ff6-e614-4d1d-9a43-58b3b05a83e4.jpeg",
       "AssetKind": "All",
@@ -1002,13 +1002,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\83146ff6-e614-4d1d-9a43-58b3b05a83e4.jpeg"
+      "OriginalItemSpec": "wwwroot/uploads/83146ff6-e614-4d1d-9a43-58b3b05a83e4.jpeg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\834e2626-3abc-4752-ac8c-a2df4ad47f5b.m4a",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/834e2626-3abc-4752-ac8c-a2df4ad47f5b.m4a",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/834e2626-3abc-4752-ac8c-a2df4ad47f5b.m4a",
       "AssetKind": "All",
@@ -1021,13 +1021,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\834e2626-3abc-4752-ac8c-a2df4ad47f5b.m4a"
+      "OriginalItemSpec": "wwwroot/uploads/834e2626-3abc-4752-ac8c-a2df4ad47f5b.m4a"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\852f72a6-6213-4102-aabe-d5831c59b5d3_ip2.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/852f72a6-6213-4102-aabe-d5831c59b5d3_ip2.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/852f72a6-6213-4102-aabe-d5831c59b5d3_ip2.jpg",
       "AssetKind": "All",
@@ -1040,13 +1040,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\852f72a6-6213-4102-aabe-d5831c59b5d3_ip2.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/852f72a6-6213-4102-aabe-d5831c59b5d3_ip2.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\8689602b-00d7-4f09-89df-667f6ed20392_photo_0.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/8689602b-00d7-4f09-89df-667f6ed20392_photo_0.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/8689602b-00d7-4f09-89df-667f6ed20392_photo_0.jpg",
       "AssetKind": "All",
@@ -1059,13 +1059,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\8689602b-00d7-4f09-89df-667f6ed20392_photo_0.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/8689602b-00d7-4f09-89df-667f6ed20392_photo_0.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\86a2727c-e09c-49dc-8ae8-c71b1ed15d8d.m4a",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/86a2727c-e09c-49dc-8ae8-c71b1ed15d8d.m4a",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/86a2727c-e09c-49dc-8ae8-c71b1ed15d8d.m4a",
       "AssetKind": "All",
@@ -1078,13 +1078,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\86a2727c-e09c-49dc-8ae8-c71b1ed15d8d.m4a"
+      "OriginalItemSpec": "wwwroot/uploads/86a2727c-e09c-49dc-8ae8-c71b1ed15d8d.m4a"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\87b57b80-0623-4f12-acae-adf23a460db6_8c7a5d7f-49bb-4620-b1b8-d7e2ea003d3e.jpeg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/87b57b80-0623-4f12-acae-adf23a460db6_8c7a5d7f-49bb-4620-b1b8-d7e2ea003d3e.jpeg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/87b57b80-0623-4f12-acae-adf23a460db6_8c7a5d7f-49bb-4620-b1b8-d7e2ea003d3e.jpeg",
       "AssetKind": "All",
@@ -1097,13 +1097,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\87b57b80-0623-4f12-acae-adf23a460db6_8c7a5d7f-49bb-4620-b1b8-d7e2ea003d3e.jpeg"
+      "OriginalItemSpec": "wwwroot/uploads/87b57b80-0623-4f12-acae-adf23a460db6_8c7a5d7f-49bb-4620-b1b8-d7e2ea003d3e.jpeg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\8913676b-4d66-449b-b490-508208c2cad1_ip2.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/8913676b-4d66-449b-b490-508208c2cad1_ip2.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/8913676b-4d66-449b-b490-508208c2cad1_ip2.jpg",
       "AssetKind": "All",
@@ -1116,13 +1116,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\8913676b-4d66-449b-b490-508208c2cad1_ip2.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/8913676b-4d66-449b-b490-508208c2cad1_ip2.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\895e6a7d-3989-4a30-beec-6f5db5dda0df.m4a",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/895e6a7d-3989-4a30-beec-6f5db5dda0df.m4a",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/895e6a7d-3989-4a30-beec-6f5db5dda0df.m4a",
       "AssetKind": "All",
@@ -1135,13 +1135,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\895e6a7d-3989-4a30-beec-6f5db5dda0df.m4a"
+      "OriginalItemSpec": "wwwroot/uploads/895e6a7d-3989-4a30-beec-6f5db5dda0df.m4a"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\8997ce73-e858-472f-bcbe-5cb0f7c1de5a.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/8997ce73-e858-472f-bcbe-5cb0f7c1de5a.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/8997ce73-e858-472f-bcbe-5cb0f7c1de5a.jpg",
       "AssetKind": "All",
@@ -1154,13 +1154,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\8997ce73-e858-472f-bcbe-5cb0f7c1de5a.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/8997ce73-e858-472f-bcbe-5cb0f7c1de5a.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\8b667ad3-9ba8-4870-973e-785ba12b611c_02674404-79ed-4582-ad89-abae740104ce.jpeg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/8b667ad3-9ba8-4870-973e-785ba12b611c_02674404-79ed-4582-ad89-abae740104ce.jpeg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/8b667ad3-9ba8-4870-973e-785ba12b611c_02674404-79ed-4582-ad89-abae740104ce.jpeg",
       "AssetKind": "All",
@@ -1173,13 +1173,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\8b667ad3-9ba8-4870-973e-785ba12b611c_02674404-79ed-4582-ad89-abae740104ce.jpeg"
+      "OriginalItemSpec": "wwwroot/uploads/8b667ad3-9ba8-4870-973e-785ba12b611c_02674404-79ed-4582-ad89-abae740104ce.jpeg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\8bdfa1d1-51a0-473a-a29e-429f5fc4cf1b_ip1.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/8bdfa1d1-51a0-473a-a29e-429f5fc4cf1b_ip1.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/8bdfa1d1-51a0-473a-a29e-429f5fc4cf1b_ip1.jpg",
       "AssetKind": "All",
@@ -1192,13 +1192,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\8bdfa1d1-51a0-473a-a29e-429f5fc4cf1b_ip1.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/8bdfa1d1-51a0-473a-a29e-429f5fc4cf1b_ip1.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\8ebc9773-0054-4086-a91f-1daab850809b_ip3.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/8ebc9773-0054-4086-a91f-1daab850809b_ip3.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/8ebc9773-0054-4086-a91f-1daab850809b_ip3.jpg",
       "AssetKind": "All",
@@ -1211,13 +1211,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\8ebc9773-0054-4086-a91f-1daab850809b_ip3.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/8ebc9773-0054-4086-a91f-1daab850809b_ip3.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\95a5cdeb-fc57-4afa-be92-00e024c8b90a.m4a",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/95a5cdeb-fc57-4afa-be92-00e024c8b90a.m4a",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/95a5cdeb-fc57-4afa-be92-00e024c8b90a.m4a",
       "AssetKind": "All",
@@ -1230,13 +1230,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\95a5cdeb-fc57-4afa-be92-00e024c8b90a.m4a"
+      "OriginalItemSpec": "wwwroot/uploads/95a5cdeb-fc57-4afa-be92-00e024c8b90a.m4a"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\95b9a274-5968-4faf-aada-83140ded5eb0_c2.png",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/95b9a274-5968-4faf-aada-83140ded5eb0_c2.png",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/95b9a274-5968-4faf-aada-83140ded5eb0_c2.png",
       "AssetKind": "All",
@@ -1249,13 +1249,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\95b9a274-5968-4faf-aada-83140ded5eb0_c2.png"
+      "OriginalItemSpec": "wwwroot/uploads/95b9a274-5968-4faf-aada-83140ded5eb0_c2.png"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\983cf499-926a-4eda-b040-64ddf2fd8463_photo_1.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/983cf499-926a-4eda-b040-64ddf2fd8463_photo_1.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/983cf499-926a-4eda-b040-64ddf2fd8463_photo_1.jpg",
       "AssetKind": "All",
@@ -1268,13 +1268,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\983cf499-926a-4eda-b040-64ddf2fd8463_photo_1.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/983cf499-926a-4eda-b040-64ddf2fd8463_photo_1.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\9a7143aa-13ec-4282-b4fd-e58340079345_photo_0.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/9a7143aa-13ec-4282-b4fd-e58340079345_photo_0.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/9a7143aa-13ec-4282-b4fd-e58340079345_photo_0.jpg",
       "AssetKind": "All",
@@ -1287,13 +1287,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\9a7143aa-13ec-4282-b4fd-e58340079345_photo_0.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/9a7143aa-13ec-4282-b4fd-e58340079345_photo_0.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\9c3db066-30ed-4835-8d71-2bd8c3e0b745.m4a",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/9c3db066-30ed-4835-8d71-2bd8c3e0b745.m4a",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/9c3db066-30ed-4835-8d71-2bd8c3e0b745.m4a",
       "AssetKind": "All",
@@ -1306,13 +1306,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\9c3db066-30ed-4835-8d71-2bd8c3e0b745.m4a"
+      "OriginalItemSpec": "wwwroot/uploads/9c3db066-30ed-4835-8d71-2bd8c3e0b745.m4a"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\9ee04960-ff21-458e-b09b-c77967729a7e_photo_0.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/9ee04960-ff21-458e-b09b-c77967729a7e_photo_0.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/9ee04960-ff21-458e-b09b-c77967729a7e_photo_0.jpg",
       "AssetKind": "All",
@@ -1325,13 +1325,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\9ee04960-ff21-458e-b09b-c77967729a7e_photo_0.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/9ee04960-ff21-458e-b09b-c77967729a7e_photo_0.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\a130194f-4f51-4116-8e58-2ec3afa1c4f6.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/a130194f-4f51-4116-8e58-2ec3afa1c4f6.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/a130194f-4f51-4116-8e58-2ec3afa1c4f6.jpg",
       "AssetKind": "All",
@@ -1344,13 +1344,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\a130194f-4f51-4116-8e58-2ec3afa1c4f6.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/a130194f-4f51-4116-8e58-2ec3afa1c4f6.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\a62ee0c6-52f8-4dd0-8ddc-3e6aec0cd8fd_4be0f057-af8f-4394-a53a-fdbb70c343f9.jpeg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/a62ee0c6-52f8-4dd0-8ddc-3e6aec0cd8fd_4be0f057-af8f-4394-a53a-fdbb70c343f9.jpeg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/a62ee0c6-52f8-4dd0-8ddc-3e6aec0cd8fd_4be0f057-af8f-4394-a53a-fdbb70c343f9.jpeg",
       "AssetKind": "All",
@@ -1363,13 +1363,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\a62ee0c6-52f8-4dd0-8ddc-3e6aec0cd8fd_4be0f057-af8f-4394-a53a-fdbb70c343f9.jpeg"
+      "OriginalItemSpec": "wwwroot/uploads/a62ee0c6-52f8-4dd0-8ddc-3e6aec0cd8fd_4be0f057-af8f-4394-a53a-fdbb70c343f9.jpeg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\a814c83b-4bce-4dff-bf7b-b6209b6cd628_photo_0.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/a814c83b-4bce-4dff-bf7b-b6209b6cd628_photo_0.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/a814c83b-4bce-4dff-bf7b-b6209b6cd628_photo_0.jpg",
       "AssetKind": "All",
@@ -1382,13 +1382,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\a814c83b-4bce-4dff-bf7b-b6209b6cd628_photo_0.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/a814c83b-4bce-4dff-bf7b-b6209b6cd628_photo_0.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\aa76b3c3-5b8b-49c8-8304-6324c7125a2b_photo_1.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/aa76b3c3-5b8b-49c8-8304-6324c7125a2b_photo_1.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/aa76b3c3-5b8b-49c8-8304-6324c7125a2b_photo_1.jpg",
       "AssetKind": "All",
@@ -1401,13 +1401,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\aa76b3c3-5b8b-49c8-8304-6324c7125a2b_photo_1.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/aa76b3c3-5b8b-49c8-8304-6324c7125a2b_photo_1.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\aa82407b-6f79-4898-aa11-cbf66f0dbb4d_ip2.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/aa82407b-6f79-4898-aa11-cbf66f0dbb4d_ip2.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/aa82407b-6f79-4898-aa11-cbf66f0dbb4d_ip2.jpg",
       "AssetKind": "All",
@@ -1420,13 +1420,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\aa82407b-6f79-4898-aa11-cbf66f0dbb4d_ip2.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/aa82407b-6f79-4898-aa11-cbf66f0dbb4d_ip2.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\b139a41d-ebb5-4a73-b6c6-64423ca791e7_photo_0.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/b139a41d-ebb5-4a73-b6c6-64423ca791e7_photo_0.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/b139a41d-ebb5-4a73-b6c6-64423ca791e7_photo_0.jpg",
       "AssetKind": "All",
@@ -1439,13 +1439,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\b139a41d-ebb5-4a73-b6c6-64423ca791e7_photo_0.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/b139a41d-ebb5-4a73-b6c6-64423ca791e7_photo_0.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\b171a72c-2dcd-40e6-810d-0412a9ffad27_photo_0.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/b171a72c-2dcd-40e6-810d-0412a9ffad27_photo_0.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/b171a72c-2dcd-40e6-810d-0412a9ffad27_photo_0.jpg",
       "AssetKind": "All",
@@ -1458,13 +1458,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\b171a72c-2dcd-40e6-810d-0412a9ffad27_photo_0.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/b171a72c-2dcd-40e6-810d-0412a9ffad27_photo_0.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\b2983655-1854-41a1-986e-08290e6098d8_ip4.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/b2983655-1854-41a1-986e-08290e6098d8_ip4.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/b2983655-1854-41a1-986e-08290e6098d8_ip4.jpg",
       "AssetKind": "All",
@@ -1477,13 +1477,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\b2983655-1854-41a1-986e-08290e6098d8_ip4.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/b2983655-1854-41a1-986e-08290e6098d8_ip4.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\b709ea6b-ca41-4b8d-a2b0-6fe67613c8fb.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/b709ea6b-ca41-4b8d-a2b0-6fe67613c8fb.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/b709ea6b-ca41-4b8d-a2b0-6fe67613c8fb.jpg",
       "AssetKind": "All",
@@ -1496,13 +1496,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\b709ea6b-ca41-4b8d-a2b0-6fe67613c8fb.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/b709ea6b-ca41-4b8d-a2b0-6fe67613c8fb.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\b7c349be-d984-4c8e-9214-c5e86974e206.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/b7c349be-d984-4c8e-9214-c5e86974e206.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/b7c349be-d984-4c8e-9214-c5e86974e206.jpg",
       "AssetKind": "All",
@@ -1515,13 +1515,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\b7c349be-d984-4c8e-9214-c5e86974e206.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/b7c349be-d984-4c8e-9214-c5e86974e206.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\b86c0eda-fc06-4e8d-a9f6-48b73f540820.jpeg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/b86c0eda-fc06-4e8d-a9f6-48b73f540820.jpeg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/b86c0eda-fc06-4e8d-a9f6-48b73f540820.jpeg",
       "AssetKind": "All",
@@ -1534,13 +1534,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\b86c0eda-fc06-4e8d-a9f6-48b73f540820.jpeg"
+      "OriginalItemSpec": "wwwroot/uploads/b86c0eda-fc06-4e8d-a9f6-48b73f540820.jpeg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\be3b9b64-d8f3-4adf-97f4-411ad23baff5_photo.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/be3b9b64-d8f3-4adf-97f4-411ad23baff5_photo.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/be3b9b64-d8f3-4adf-97f4-411ad23baff5_photo.jpg",
       "AssetKind": "All",
@@ -1553,13 +1553,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\be3b9b64-d8f3-4adf-97f4-411ad23baff5_photo.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/be3b9b64-d8f3-4adf-97f4-411ad23baff5_photo.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\bec7e667-499d-4d63-a70c-93dfb63ee65c_photo_0.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/bec7e667-499d-4d63-a70c-93dfb63ee65c_photo_0.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/bec7e667-499d-4d63-a70c-93dfb63ee65c_photo_0.jpg",
       "AssetKind": "All",
@@ -1572,13 +1572,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\bec7e667-499d-4d63-a70c-93dfb63ee65c_photo_0.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/bec7e667-499d-4d63-a70c-93dfb63ee65c_photo_0.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\c95f7dcc-7d39-443d-b235-3b8a893474eb.m4a",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/c95f7dcc-7d39-443d-b235-3b8a893474eb.m4a",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/c95f7dcc-7d39-443d-b235-3b8a893474eb.m4a",
       "AssetKind": "All",
@@ -1591,13 +1591,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\c95f7dcc-7d39-443d-b235-3b8a893474eb.m4a"
+      "OriginalItemSpec": "wwwroot/uploads/c95f7dcc-7d39-443d-b235-3b8a893474eb.m4a"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\c991b10a-fd07-420a-8782-2a4fb1e8156f.3gp",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/c991b10a-fd07-420a-8782-2a4fb1e8156f.3gp",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/c991b10a-fd07-420a-8782-2a4fb1e8156f.3gp",
       "AssetKind": "All",
@@ -1610,13 +1610,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\c991b10a-fd07-420a-8782-2a4fb1e8156f.3gp"
+      "OriginalItemSpec": "wwwroot/uploads/c991b10a-fd07-420a-8782-2a4fb1e8156f.3gp"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\cb5e73fa-01a2-44ae-8605-1a19a99efc04_photo_0.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/cb5e73fa-01a2-44ae-8605-1a19a99efc04_photo_0.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/cb5e73fa-01a2-44ae-8605-1a19a99efc04_photo_0.jpg",
       "AssetKind": "All",
@@ -1629,13 +1629,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\cb5e73fa-01a2-44ae-8605-1a19a99efc04_photo_0.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/cb5e73fa-01a2-44ae-8605-1a19a99efc04_photo_0.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\d0deae1d-03d5-4d1f-a163-5a4d57b61ec4.jpeg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/d0deae1d-03d5-4d1f-a163-5a4d57b61ec4.jpeg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/d0deae1d-03d5-4d1f-a163-5a4d57b61ec4.jpeg",
       "AssetKind": "All",
@@ -1648,13 +1648,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\d0deae1d-03d5-4d1f-a163-5a4d57b61ec4.jpeg"
+      "OriginalItemSpec": "wwwroot/uploads/d0deae1d-03d5-4d1f-a163-5a4d57b61ec4.jpeg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\d2c2176c-d6c3-48e2-93c1-ccb29789e77e_ip2.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/d2c2176c-d6c3-48e2-93c1-ccb29789e77e_ip2.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/d2c2176c-d6c3-48e2-93c1-ccb29789e77e_ip2.jpg",
       "AssetKind": "All",
@@ -1667,13 +1667,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\d2c2176c-d6c3-48e2-93c1-ccb29789e77e_ip2.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/d2c2176c-d6c3-48e2-93c1-ccb29789e77e_ip2.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\d3f15acb-8258-47aa-9ce0-125e90e97263_photo_0.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/d3f15acb-8258-47aa-9ce0-125e90e97263_photo_0.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/d3f15acb-8258-47aa-9ce0-125e90e97263_photo_0.jpg",
       "AssetKind": "All",
@@ -1686,13 +1686,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\d3f15acb-8258-47aa-9ce0-125e90e97263_photo_0.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/d3f15acb-8258-47aa-9ce0-125e90e97263_photo_0.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\db5bf842-2e4e-49d5-9d5c-b7cd6973540b.m4a",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/db5bf842-2e4e-49d5-9d5c-b7cd6973540b.m4a",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/db5bf842-2e4e-49d5-9d5c-b7cd6973540b.m4a",
       "AssetKind": "All",
@@ -1705,13 +1705,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\db5bf842-2e4e-49d5-9d5c-b7cd6973540b.m4a"
+      "OriginalItemSpec": "wwwroot/uploads/db5bf842-2e4e-49d5-9d5c-b7cd6973540b.m4a"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\dbe6f071-bb18-4ebc-b403-1220062af16d.jpeg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/dbe6f071-bb18-4ebc-b403-1220062af16d.jpeg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/dbe6f071-bb18-4ebc-b403-1220062af16d.jpeg",
       "AssetKind": "All",
@@ -1724,13 +1724,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\dbe6f071-bb18-4ebc-b403-1220062af16d.jpeg"
+      "OriginalItemSpec": "wwwroot/uploads/dbe6f071-bb18-4ebc-b403-1220062af16d.jpeg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\dc171d0d-f98c-4944-a00e-f16ec98c18c5_photo_0.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/dc171d0d-f98c-4944-a00e-f16ec98c18c5_photo_0.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/dc171d0d-f98c-4944-a00e-f16ec98c18c5_photo_0.jpg",
       "AssetKind": "All",
@@ -1743,13 +1743,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\dc171d0d-f98c-4944-a00e-f16ec98c18c5_photo_0.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/dc171d0d-f98c-4944-a00e-f16ec98c18c5_photo_0.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\df271da9-56b2-4e63-ac40-e3627e6fcec9_photo_2.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/df271da9-56b2-4e63-ac40-e3627e6fcec9_photo_2.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/df271da9-56b2-4e63-ac40-e3627e6fcec9_photo_2.jpg",
       "AssetKind": "All",
@@ -1762,13 +1762,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\df271da9-56b2-4e63-ac40-e3627e6fcec9_photo_2.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/df271da9-56b2-4e63-ac40-e3627e6fcec9_photo_2.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\df90db51-f17d-4059-b5dd-de8c14615f1f.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/df90db51-f17d-4059-b5dd-de8c14615f1f.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/df90db51-f17d-4059-b5dd-de8c14615f1f.jpg",
       "AssetKind": "All",
@@ -1781,13 +1781,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\df90db51-f17d-4059-b5dd-de8c14615f1f.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/df90db51-f17d-4059-b5dd-de8c14615f1f.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\e33e798b-2727-486c-9828-61c2d896e898_photo_0.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/e33e798b-2727-486c-9828-61c2d896e898_photo_0.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/e33e798b-2727-486c-9828-61c2d896e898_photo_0.jpg",
       "AssetKind": "All",
@@ -1800,13 +1800,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\e33e798b-2727-486c-9828-61c2d896e898_photo_0.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/e33e798b-2727-486c-9828-61c2d896e898_photo_0.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\ea0716be-bbe6-489b-ac20-af569d0bebbf_c2.png",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/ea0716be-bbe6-489b-ac20-af569d0bebbf_c2.png",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/ea0716be-bbe6-489b-ac20-af569d0bebbf_c2.png",
       "AssetKind": "All",
@@ -1819,13 +1819,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\ea0716be-bbe6-489b-ac20-af569d0bebbf_c2.png"
+      "OriginalItemSpec": "wwwroot/uploads/ea0716be-bbe6-489b-ac20-af569d0bebbf_c2.png"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\eb1162a6-e860-4af1-97bf-1c3864aabc44_ip2.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/eb1162a6-e860-4af1-97bf-1c3864aabc44_ip2.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/eb1162a6-e860-4af1-97bf-1c3864aabc44_ip2.jpg",
       "AssetKind": "All",
@@ -1838,13 +1838,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\eb1162a6-e860-4af1-97bf-1c3864aabc44_ip2.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/eb1162a6-e860-4af1-97bf-1c3864aabc44_ip2.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\efa7a1d0-9448-4330-a559-bab6d9431b01.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/efa7a1d0-9448-4330-a559-bab6d9431b01.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/efa7a1d0-9448-4330-a559-bab6d9431b01.jpg",
       "AssetKind": "All",
@@ -1857,13 +1857,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\efa7a1d0-9448-4330-a559-bab6d9431b01.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/efa7a1d0-9448-4330-a559-bab6d9431b01.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\f1ada39b-e94f-4849-8e73-1c5be24b3380_photo_0.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/f1ada39b-e94f-4849-8e73-1c5be24b3380_photo_0.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/f1ada39b-e94f-4849-8e73-1c5be24b3380_photo_0.jpg",
       "AssetKind": "All",
@@ -1876,13 +1876,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\f1ada39b-e94f-4849-8e73-1c5be24b3380_photo_0.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/f1ada39b-e94f-4849-8e73-1c5be24b3380_photo_0.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\f69cdbef-add1-455f-ba40-2b05ce8a6b67.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/f69cdbef-add1-455f-ba40-2b05ce8a6b67.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/f69cdbef-add1-455f-ba40-2b05ce8a6b67.jpg",
       "AssetKind": "All",
@@ -1895,13 +1895,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\f69cdbef-add1-455f-ba40-2b05ce8a6b67.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/f69cdbef-add1-455f-ba40-2b05ce8a6b67.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\f9e30a95-e468-4e39-8a3b-8f720669b6cf.m4a",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/f9e30a95-e468-4e39-8a3b-8f720669b6cf.m4a",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/f9e30a95-e468-4e39-8a3b-8f720669b6cf.m4a",
       "AssetKind": "All",
@@ -1914,13 +1914,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\f9e30a95-e468-4e39-8a3b-8f720669b6cf.m4a"
+      "OriginalItemSpec": "wwwroot/uploads/f9e30a95-e468-4e39-8a3b-8f720669b6cf.m4a"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\f9f42abc-343c-4776-a038-de8ea37c7406_photo_0.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/f9f42abc-343c-4776-a038-de8ea37c7406_photo_0.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/f9f42abc-343c-4776-a038-de8ea37c7406_photo_0.jpg",
       "AssetKind": "All",
@@ -1933,13 +1933,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\f9f42abc-343c-4776-a038-de8ea37c7406_photo_0.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/f9f42abc-343c-4776-a038-de8ea37c7406_photo_0.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\fa4e24e0-d696-4b2c-91d5-ce439e81ddd5_photo_0.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/fa4e24e0-d696-4b2c-91d5-ce439e81ddd5_photo_0.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/fa4e24e0-d696-4b2c-91d5-ce439e81ddd5_photo_0.jpg",
       "AssetKind": "All",
@@ -1952,13 +1952,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\fa4e24e0-d696-4b2c-91d5-ce439e81ddd5_photo_0.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/fa4e24e0-d696-4b2c-91d5-ce439e81ddd5_photo_0.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\fe2f1a10-06f6-49d1-a245-6dc57736157c.jpeg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/fe2f1a10-06f6-49d1-a245-6dc57736157c.jpeg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/fe2f1a10-06f6-49d1-a245-6dc57736157c.jpeg",
       "AssetKind": "All",
@@ -1971,13 +1971,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\fe2f1a10-06f6-49d1-a245-6dc57736157c.jpeg"
+      "OriginalItemSpec": "wwwroot/uploads/fe2f1a10-06f6-49d1-a245-6dc57736157c.jpeg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\fef95f56-88b8-4f70-b6c9-d63693b47aab.jpeg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/fef95f56-88b8-4f70-b6c9-d63693b47aab.jpeg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/fef95f56-88b8-4f70-b6c9-d63693b47aab.jpeg",
       "AssetKind": "All",
@@ -1990,13 +1990,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\fef95f56-88b8-4f70-b6c9-d63693b47aab.jpeg"
+      "OriginalItemSpec": "wwwroot/uploads/fef95f56-88b8-4f70-b6c9-d63693b47aab.jpeg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\profiles\\1aae2376-d582-4ef9-935d-95801aabe3c0.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/profiles/1aae2376-d582-4ef9-935d-95801aabe3c0.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/profiles/1aae2376-d582-4ef9-935d-95801aabe3c0.jpg",
       "AssetKind": "All",
@@ -2009,13 +2009,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\profiles\\1aae2376-d582-4ef9-935d-95801aabe3c0.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/profiles/1aae2376-d582-4ef9-935d-95801aabe3c0.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\profiles\\21587447-70a8-42ea-a35b-159f062ac4ad.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/profiles/21587447-70a8-42ea-a35b-159f062ac4ad.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/profiles/21587447-70a8-42ea-a35b-159f062ac4ad.jpg",
       "AssetKind": "All",
@@ -2028,13 +2028,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\profiles\\21587447-70a8-42ea-a35b-159f062ac4ad.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/profiles/21587447-70a8-42ea-a35b-159f062ac4ad.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\profiles\\7187ef90-7228-4aa6-9ebe-3dd29edb9c86.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/profiles/7187ef90-7228-4aa6-9ebe-3dd29edb9c86.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/profiles/7187ef90-7228-4aa6-9ebe-3dd29edb9c86.jpg",
       "AssetKind": "All",
@@ -2047,13 +2047,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\profiles\\7187ef90-7228-4aa6-9ebe-3dd29edb9c86.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/profiles/7187ef90-7228-4aa6-9ebe-3dd29edb9c86.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\profiles\\856326a7-db30-463d-a3ac-e92a7396d548.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/profiles/856326a7-db30-463d-a3ac-e92a7396d548.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/profiles/856326a7-db30-463d-a3ac-e92a7396d548.jpg",
       "AssetKind": "All",
@@ -2066,13 +2066,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\profiles\\856326a7-db30-463d-a3ac-e92a7396d548.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/profiles/856326a7-db30-463d-a3ac-e92a7396d548.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\profiles\\8b46c94a-43d8-43f9-bb37-ae9ef4b93640.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/profiles/8b46c94a-43d8-43f9-bb37-ae9ef4b93640.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/profiles/8b46c94a-43d8-43f9-bb37-ae9ef4b93640.jpg",
       "AssetKind": "All",
@@ -2085,13 +2085,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\profiles\\8b46c94a-43d8-43f9-bb37-ae9ef4b93640.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/profiles/8b46c94a-43d8-43f9-bb37-ae9ef4b93640.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\profiles\\9fbd831d-0ebd-4261-8688-6cbe247f2077.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/profiles/9fbd831d-0ebd-4261-8688-6cbe247f2077.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/profiles/9fbd831d-0ebd-4261-8688-6cbe247f2077.jpg",
       "AssetKind": "All",
@@ -2104,13 +2104,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\profiles\\9fbd831d-0ebd-4261-8688-6cbe247f2077.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/profiles/9fbd831d-0ebd-4261-8688-6cbe247f2077.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\profiles\\b6dead85-426c-4e2e-809e-e25bac6e1ded.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/profiles/b6dead85-426c-4e2e-809e-e25bac6e1ded.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/profiles/b6dead85-426c-4e2e-809e-e25bac6e1ded.jpg",
       "AssetKind": "All",
@@ -2123,13 +2123,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\profiles\\b6dead85-426c-4e2e-809e-e25bac6e1ded.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/profiles/b6dead85-426c-4e2e-809e-e25bac6e1ded.jpg"
     },
     {
-      "Identity": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\uploads\\profiles\\ddab34e2-a79a-4f82-b634-22ab6fc920d1.jpg",
+      "Identity": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/uploads/profiles/ddab34e2-a79a-4f82-b634-22ab6fc920d1.jpg",
       "SourceId": "MeGo.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\wwwroot\\",
+      "ContentRoot": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/wwwroot/",
       "BasePath": "_content/MeGo.Api",
       "RelativePath": "uploads/profiles/ddab34e2-a79a-4f82-b634-22ab6fc920d1.jpg",
       "AssetKind": "All",
@@ -2142,7 +2142,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\profiles\\ddab34e2-a79a-4f82-b634-22ab6fc920d1.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/profiles/ddab34e2-a79a-4f82-b634-22ab6fc920d1.jpg"
     }
   ]
 }

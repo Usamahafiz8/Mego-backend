@@ -144,6 +144,25 @@ builder.Services.AddSwaggerGen(c =>
     });
 
     c.OperationFilter<FileUploadOperationFilter>();
+    
+    // Ignore errors for file upload endpoints
+    c.IgnoreObsoleteActions();
+    c.CustomSchemaIds(type => type.FullName);
+    
+    // Exclude problematic action from Swagger
+    c.DocInclusionPredicate((docName, apiDesc) =>
+    {
+        // Skip the problematic SubmitLiveVerification action
+        if (apiDesc.ActionDescriptor is Microsoft.AspNetCore.Mvc.Controllers.ControllerActionDescriptor actionDesc)
+        {
+            if (actionDesc.ControllerName == "UserKyc" && 
+                actionDesc.ActionName == "SubmitLiveVerification")
+            {
+                return false;
+            }
+        }
+        return true;
+    });
 });
 
 // --------------------------------------------------

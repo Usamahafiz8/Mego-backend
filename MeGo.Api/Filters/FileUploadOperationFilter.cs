@@ -17,12 +17,21 @@ namespace MeGo.Api.Filters
             
             if (consumesAttribute?.ContentTypes?.Contains("multipart/form-data") == true)
             {
-                // Check for DTO with IFormFile properties
                 var parameters = context.MethodInfo.GetParameters();
+                
+                // Remove existing parameters that are [FromForm] since we'll add them to RequestBody
+                operation.Parameters = operation.Parameters?
+                    .Where(p => !parameters.Any(param => 
+                        param.Name == p.Name && 
+                        param.GetCustomAttributes(typeof(FromFormAttribute), false).Any()))
+                    .ToList() ?? new List<OpenApiParameter>();
+                
+                // Check for DTO with IFormFile properties
                 var dtoParam = parameters.FirstOrDefault(p => 
                     p.GetCustomAttributes(typeof(FromFormAttribute), false).Any() &&
                     p.ParameterType.IsClass && 
-                    p.ParameterType != typeof(string));
+                    p.ParameterType != typeof(string) &&
+                    p.ParameterType != typeof(IFormFile));
                 
                 if (dtoParam != null)
                 {
@@ -60,10 +69,25 @@ namespace MeGo.Api.Filters
                 }
                 else
                 {
-                    // Fallback: handle individual [FromForm] parameters
+                    // Handle individual [FromForm] parameters (including direct IFormFile)
                     var formParams = parameters.Where(p => p.GetCustomAttributes(typeof(FromFormAttribute), false).Any()).ToList();
                     if (formParams.Any())
                     {
+                        var schemaProperties = new Dictionary<string, OpenApiSchema>();
+                        
+                        foreach (var param in formParams)
+                        {
+                            var paramType = param.ParameterType;
+                            var isFile = paramType == typeof(IFormFile) || 
+                                        (paramType.IsGenericType && 
+                                         paramType.GetGenericTypeDefinition() == typeof(Nullable<>) && 
+                                         paramType.GetGenericArguments()[0] == typeof(IFormFile));
+                            
+                            schemaProperties[param.Name ?? "file"] = isFile
+                                ? new OpenApiSchema { Type = "string", Format = "binary" }
+                                : new OpenApiSchema { Type = "string" };
+                        }
+                        
                         operation.RequestBody = new OpenApiRequestBody
                         {
                             Content = new Dictionary<string, OpenApiMediaType>
@@ -73,21 +97,7 @@ namespace MeGo.Api.Filters
                                     Schema = new OpenApiSchema
                                     {
                                         Type = "object",
-                                        Properties = formParams.ToDictionary(
-                                            p => p.Name ?? "",
-                                            p =>
-                                            {
-                                                var paramType = p.ParameterType;
-                                                var isFile = paramType == typeof(IFormFile) || 
-                                                            (paramType.IsGenericType && 
-                                                             paramType.GetGenericTypeDefinition() == typeof(Nullable<>) && 
-                                                             paramType.GetGenericArguments()[0] == typeof(IFormFile));
-                                                
-                                                return isFile
-                                                    ? new OpenApiSchema { Type = "string", Format = "binary" }
-                                                    : new OpenApiSchema { Type = "string" };
-                                            }
-                                        )
+                                        Properties = schemaProperties
                                     }
                                 }
                             }

@@ -3,12 +3,3 @@
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
-
-# Build outputs
-bin/
-obj/
-
-# Secrets and credentials
-**/firebase-adminsdk-*.json
-**/*-firebase-adminsdk-*.json
-**/mego-app-*-firebase-adminsdk-*.json

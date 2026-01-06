@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\whole_mego_project\\mego-api\\MeGo.Api\\MeGo.Api.csproj": {}
+    "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/MeGo.Api.csproj": {}
   },
   "projects": {
-    "D:\\whole_mego_project\\mego-api\\MeGo.Api\\MeGo.Api.csproj": {
+    "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/MeGo.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\MeGo.Api.csproj",
+        "projectUniqueName": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/MeGo.Api.csproj",
         "projectName": "MeGo.Api",
-        "projectPath": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\MeGo.Api.csproj",
-        "packagesPath": "C:\\Users\\NOCS\\.nuget\\packages\\",
-        "outputPath": "D:\\whole_mego_project\\mego-api\\MeGo.Api\\obj\\",
+        "projectPath": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/MeGo.Api.csproj",
+        "packagesPath": "/Users/cybillnerd/.nuget/packages/",
+        "outputPath": "/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\NOCS\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/cybillnerd/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -125,7 +125,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "D:\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/cybillnerd/.dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
