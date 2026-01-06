@@ -30,13 +30,14 @@ artifacts/
 # Sensitive files - NEVER COMMIT THESE
 **/appsettings.Development.json
 **/appsettings.Production.json
+**/appsettings.json
 **/*firebase-adminsdk*.json
 **/*.pfx
 **/*.p12
 
 # Keep appsettings.json template (without secrets)
-!appsettings.json.example
-!appsettings.Development.json.example
+!**/appsettings.json.example
+!**/appsettings.Development.json.example
 
 # User-specific files
 *.rsuser
