@@ -1,0 +1,35 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Host=localhost;Database=mego_dev;Username=mego;Password=YOUR_PASSWORD_HERE"
+  },
+  "Jwt": {
+    "Key": "YOUR_JWT_SECRET_KEY_MIN_32_CHARACTERS_LONG",
+    "Issuer": "mego-api",
+    "Audience": "mego-clients",
+    "ExpireMinutes": "60"
+  },
+  "Firebase": {
+    "ServiceAccountPath": "PATH_TO_YOUR_FIREBASE_SERVICE_ACCOUNT_JSON_FILE"
+  },
+  "Smtp": {
+    "Host": "smtp.sendgrid.net",
+    "Port": "587",
+    "Username": "apikey",
+    "Password": "YOUR_SENDGRID_API_KEY_HERE",
+    "FromEmail": "your-email@example.com",
+    "FromName": "MEGO"
+  },
+  "Twilio": {
+    "AccountSid": "YOUR_TWILIO_ACCOUNT_SID_HERE",
+    "AuthToken": "YOUR_TWILIO_AUTH_TOKEN_HERE",
+    "ServiceSid": "YOUR_TWILIO_SERVICE_SID_HERE"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}
+
