@@ -294,6 +294,35 @@ http://localhost:5144/swagger
 
 ## 🚀 Deployment
 
+### AWS EC2 Deployment (Recommended)
+
+**Quick Deploy:**
+
+1. **Launch EC2 Instance** (Ubuntu 22.04)
+2. **Connect via SSH:**
+   ```bash
+   ssh -i your-key.pem ubuntu@YOUR_EC2_IP
+   ```
+3. **Run Setup Script:**
+   ```bash
+   wget -O ec2-setup.sh YOUR_SCRIPT_URL
+   chmod +x ec2-setup.sh
+   ./ec2-setup.sh
+   ```
+4. **Upload Code:**
+   ```bash
+   # From local machine
+   scp -r mego-api ubuntu@EC2_IP:/home/ubuntu/
+   ```
+5. **Deploy:**
+   ```bash
+   # On EC2
+   cd mego-api/MeGo.Api
+   ./deploy-to-ec2.sh
+   ```
+
+**See `EC2_DEPLOYMENT.md` for complete deployment guide.**
+
 ### Docker
 
 ```bash
@@ -315,7 +344,7 @@ Set these in your deployment platform:
 - `ConnectionStrings__DefaultConnection`
 - `Jwt__Key`
 - `ASPNETCORE_ENVIRONMENT=Production`
-- `ASPNETCORE_URLS=http://0.0.0.0:80`
+- `ASPNETCORE_URLS=http://0.0.0.0:5144`
 
 ---
 
