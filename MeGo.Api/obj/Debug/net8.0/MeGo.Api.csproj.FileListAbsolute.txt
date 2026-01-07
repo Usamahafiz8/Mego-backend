@@ -668,3 +668,15 @@ D:/whole_mego_project/mego-api/MeGo.Api/obj/Debug/net8.0/MeGo.Api.sourcelink.jso
 /Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/obj/Debug/net8.0/MeGo.Api.pdb
 /Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/obj/Debug/net8.0/MeGo.Api.genruntimeconfig.cache
 /Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/obj/Debug/net8.0/ref/MeGo.Api.dll
+/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/bin/Debug/net8.0/MeGo.Api.xml
+/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/bin/Debug/net8.0/HealthChecks.NpgSql.dll
+/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/obj/Debug/net8.0/MeGo.Api.xml
+/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/bin/Debug/net8.0/Serilog.dll
+/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/bin/Debug/net8.0/Serilog.AspNetCore.dll
+/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/bin/Debug/net8.0/Serilog.Extensions.Hosting.dll
+/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/bin/Debug/net8.0/Serilog.Extensions.Logging.dll
+/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/bin/Debug/net8.0/Serilog.Formatting.Compact.dll
+/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/bin/Debug/net8.0/Serilog.Settings.Configuration.dll
+/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/bin/Debug/net8.0/Serilog.Sinks.Console.dll
+/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/bin/Debug/net8.0/Serilog.Sinks.Debug.dll
+/Users/cybillnerd/Desktop/mego/mego-api (1)/MeGo.Api/bin/Debug/net8.0/Serilog.Sinks.File.dll

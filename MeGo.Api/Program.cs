@@ -7,12 +7,41 @@ using System.Text;
 using MeGo.Api.Services;
 using MeGo.Api.Hubs;
 using MeGo.Api.Filters;
+using MeGo.Api.Extensions;
+using MeGo.Api.Middleware;
 using Microsoft.Extensions.FileProviders;
+using System.Reflection;
+using Serilog;
+
+// Configure Serilog for file and console logging
+var logDirectory = Path.Combine(Directory.GetCurrentDirectory(), "logs");
+if (!Directory.Exists(logDirectory))
+{
+    Directory.CreateDirectory(logDirectory);
+}
+
+Log.Logger = new LoggerConfiguration()
+    .WriteTo.Console(outputTemplate: "{Timestamp:HH:mm:ss} [{Level:u3}] {Message:lj}{NewLine}{Exception}")
+    .WriteTo.File(
+        Path.Combine(logDirectory, "app-.log"),
+        rollingInterval: RollingInterval.Day,
+        retainedFileCountLimit: 7,
+        fileSizeLimitBytes: 10 * 1024 * 1024, // 10MB
+        outputTemplate: "{Timestamp:yyyy-MM-dd HH:mm:ss.fff zzz} [{Level:u3}] {Message:lj}{NewLine}{Exception}")
+    .CreateLogger();
 
 var builder = WebApplication.CreateBuilder(args);
 
-// 🔥 VERY IMPORTANT (MOBILE / EXPO ACCESS)
-builder.WebHost.UseUrls("http://0.0.0.0:5144");
+// Use Serilog
+builder.Host.UseSerilog();
+
+// Use Serilog
+builder.Host.UseSerilog();
+
+// 🔥 Configure Port (supports environment variables for cloud deployment)
+var port = Environment.GetEnvironmentVariable("PORT") ?? "5144";
+var urls = Environment.GetEnvironmentVariable("ASPNETCORE_URLS") ?? $"http://0.0.0.0:{port}";
+builder.WebHost.UseUrls(urls);
 
 // --------------------------------------------------
 // 🧩 Controllers
@@ -27,23 +56,19 @@ builder.Services.AddControllers()
 builder.Services.AddEndpointsApiExplorer();
 
 // --------------------------------------------------
-// 🧠 Services
+// 🏥 Health Checks
 // --------------------------------------------------
-builder.Services.AddScoped<RewardService>();
-builder.Services.AddSingleton<NotificationService>();
-builder.Services.AddSingleton<EmailService>();
-builder.Services.AddScoped<TwilioVerifyService>();
-builder.Services.AddScoped<AdQualityScoreService>();
-builder.Services.AddScoped<SpamDetectionService>();
-builder.Services.AddHostedService<AdRelistReminderService>();
+builder.Services.AddHealthChecks()
+    .AddNpgSql(
+        builder.Configuration.GetConnectionString("DefaultConnection") ?? "",
+        name: "postgresql",
+        tags: new[] { "ready" },
+        timeout: TimeSpan.FromSeconds(5));
 
 // --------------------------------------------------
-// 🗃️ Database
+// 🧠 Services & Database
 // --------------------------------------------------
-builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseNpgsql(
-        builder.Configuration.GetConnectionString("DefaultConnection")
-    ));
+builder.Services.AddApplicationServices(builder.Configuration);
 
 // --------------------------------------------------
 // 🔐 JWT AUTH
@@ -117,15 +142,32 @@ builder.Services.AddSwaggerGen(c =>
     c.SwaggerDoc("v1", new OpenApiInfo
     {
         Title = "MeGo API",
-        Version = "v1"
+        Version = "v1.0.0",
+        Description = "Professional marketplace API for MeGo platform. Features include JWT authentication, real-time communication via SignalR, marketplace operations, wallet system, and more.",
+        Contact = new OpenApiContact
+        {
+            Name = "MeGo API Support",
+            Email = "support@mego.com.pk"
+        }
     });
+
+    var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+    var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+    if (File.Exists(xmlPath))
+    {
+        c.IncludeXmlComments(xmlPath, includeControllerXmlComments: true);
+    }
 
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
-        Description = "Bearer {token}",
+        Description = @"JWT Authorization header using the Bearer scheme. 
+                      Enter 'Bearer' [space] and then your token.
+                      Example: 'Bearer 12345abcdef'",
         Name = "Authorization",
         In = ParameterLocation.Header,
-        Type = SecuritySchemeType.ApiKey
+        Type = SecuritySchemeType.ApiKey,
+        Scheme = "Bearer",
+        BearerFormat = "JWT"
     });
 
     c.AddSecurityRequirement(new OpenApiSecurityRequirement
@@ -170,8 +212,25 @@ builder.Services.AddSwaggerGen(c =>
 // --------------------------------------------------
 var app = builder.Build();
 
-app.UseSwagger();
-app.UseSwaggerUI();
+// --------------------------------------------------
+// 🛡️ Professional Middleware Pipeline
+// --------------------------------------------------
+app.UseProfessionalMiddleware();
+
+// Swagger (Development only)
+if (app.Environment.IsDevelopment() || app.Configuration.GetValue<bool>("EnableSwagger"))
+{
+    app.UseSwagger();
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "MeGo API v1.0.0");
+        c.RoutePrefix = "swagger";
+        c.DocumentTitle = "MeGo API Documentation";
+        c.DisplayRequestDuration();
+        c.EnableDeepLinking();
+        c.EnableFilter();
+    });
+}
 
 app.UseCors("CorsPolicy");
 
@@ -193,12 +252,45 @@ app.UseStaticFiles(new StaticFileOptions
 // --------------------------------------------------
 // 📍 Routes
 // --------------------------------------------------
+// Health Checks
+app.MapHealthChecks("/health");
+app.MapHealthChecks("/health/ready", new Microsoft.AspNetCore.Diagnostics.HealthChecks.HealthCheckOptions
+{
+    Predicate = check => check.Tags.Contains("ready")
+});
+app.MapHealthChecks("/health/live", new Microsoft.AspNetCore.Diagnostics.HealthChecks.HealthCheckOptions
+{
+    Predicate = _ => false
+});
+
+// API Routes
 app.MapControllers();
 app.MapHub<AdminHub>("/hubs/admin");
 app.MapHub<ChatHub>("/chatHub");
 app.MapHub<UserHub>("/userHub");
 
-app.MapGet("/", () => "🚀 MeGo Backend Running");
+// Root Endpoint
+app.MapGet("/", () => new
+{
+    Service = "MeGo API",
+    Status = "Running",
+    Version = "1.0.0",
+    Timestamp = DateTime.UtcNow,
+    Documentation = "/swagger"
+});
 
 // --------------------------------------------------
-app.Run();
+try
+{
+    Log.Information("🚀 MeGo API starting up...");
+    app.Run();
+}
+catch (Exception ex)
+{
+    Log.Fatal(ex, "❌ Application failed to start");
+    throw;
+}
+finally
+{
+    Log.CloseAndFlush();
+}

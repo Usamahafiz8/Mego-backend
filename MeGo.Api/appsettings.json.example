@@ -1,6 +1,7 @@
 {
   "ConnectionStrings": {
-    "DefaultConnection": "Host=localhost;Database=mego_dev;Username=mego;Password=YOUR_PASSWORD_HERE"
+    "DefaultConnection": "Host=localhost;Database=mego_dev;Username=mego;Password=YOUR_PASSWORD_HERE",
+    "RdsConnection": "Host=database-1.c27g0uwm43k1.us-east-1.rds.amazonaws.com;Port=5432;Database=mego_dev;Username=postgres;Password=YOUR_PASSWORD_FROM_AWS_SECRETS_MANAGER;SSL Mode=Require;Trust Server Certificate=true"
   },
   "Jwt": {
     "Key": "YOUR_JWT_SECRET_KEY_MIN_32_CHARACTERS_LONG",

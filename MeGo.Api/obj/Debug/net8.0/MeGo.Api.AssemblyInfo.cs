@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MeGo.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+45be31497b62bc8dd0596eb865b90d20a97c68d3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8834690cc451bc25d94f54158303a46c8d5fd8f6")]
 [assembly: System.Reflection.AssemblyProductAttribute("MeGo.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MeGo.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

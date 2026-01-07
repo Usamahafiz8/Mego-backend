@@ -1,0 +1,36 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Host=YOUR_RDS_ENDPOINT;Port=5432;Database=mego_prod;Username=postgres;Password=YOUR_PASSWORD;SSL Mode=Require;Trust Server Certificate=true"
+  },
+  "Jwt": {
+    "Key": "YOUR_SUPER_SECRET_JWT_KEY_MIN_32_CHARACTERS_LONG",
+    "Issuer": "mego-api",
+    "Audience": "mego-clients",
+    "ExpireMinutes": "60"
+  },
+  "Firebase": {
+    "ServiceAccountPath": "PATH_TO_FIREBASE_SERVICE_ACCOUNT_JSON"
+  },
+  "Smtp": {
+    "Host": "smtp.sendgrid.net",
+    "Port": "587",
+    "Username": "apikey",
+    "Password": "YOUR_SENDGRID_API_KEY",
+    "FromEmail": "mego.com.pk.1@gmail.com",
+    "FromName": "MEGO"
+  },
+  "Twilio": {
+    "AccountSid": "YOUR_TWILIO_ACCOUNT_SID",
+    "AuthToken": "YOUR_TWILIO_AUTH_TOKEN",
+    "ServiceSid": "YOUR_TWILIO_SERVICE_SID"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "EnableSwagger": false
+}
+
