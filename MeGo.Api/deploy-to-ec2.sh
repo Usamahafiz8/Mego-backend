@@ -184,12 +184,14 @@ fi
 # Step 11: Configure Nginx
 echo ""
 echo "📋 Step 11: Configuring Nginx..."
-EC2_IP=$(curl -s http://169.254.169.254/latest/meta-data/public-ipv4 2>/dev/null || echo "localhost")
+EC2_IP=$(curl -s http://169.254.169.254/latest/meta-data/public-ipv4 2>/dev/null || echo "_")
 
+# Create Nginx config
 sudo tee /etc/nginx/sites-available/$SERVICE_NAME > /dev/null <<EOF
 server {
-    listen 80;
-    server_name $EC2_IP;
+    listen 80 default_server;
+    listen [::]:80 default_server;
+    server_name $EC2_IP _;
 
     location / {
         proxy_pass http://localhost:5144;
@@ -205,14 +207,18 @@ server {
 }
 EOF
 
+# Enable site and remove default
 sudo ln -sf /etc/nginx/sites-available/$SERVICE_NAME /etc/nginx/sites-enabled/
 sudo rm -f /etc/nginx/sites-enabled/default 2>/dev/null || true
 
-if sudo nginx -t &> /dev/null; then
+# Test and restart Nginx
+if sudo nginx -t 2>&1; then
     sudo systemctl restart nginx
-    echo -e "${GREEN}✅ Nginx configured${NC}"
+    echo -e "${GREEN}✅ Nginx configured and restarted${NC}"
 else
-    echo -e "${YELLOW}⚠️  Nginx config test failed, but continuing...${NC}"
+    echo -e "${RED}❌ Nginx config test failed${NC}"
+    echo "Checking Nginx error..."
+    sudo nginx -t
 fi
 
 # Step 12: Verify deployment
