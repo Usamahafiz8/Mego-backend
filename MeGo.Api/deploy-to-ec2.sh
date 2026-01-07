@@ -27,7 +27,7 @@ if [ "$EUID" -eq 0 ]; then
 fi
 
 echo "📋 Step 1: Installing Dependencies..."
-echo "======================================"
+echo "====================================="
 
 # Update system
 sudo apt update && sudo apt upgrade -y
@@ -117,20 +117,7 @@ else
 fi
 
 echo ""
-echo "📋 Step 4: Testing RDS Connection..."
-echo "===================================="
-
-PGPASSWORD="$RDS_PASSWORD" psql -h "$RDS_ENDPOINT" -U postgres -d postgres -c "SELECT version();" 2>&1
-
-if [ $? -eq 0 ]; then
-    echo -e "${GREEN}✅ RDS connection successful${NC}"
-else
-    echo -e "${RED}❌ RDS connection failed. Check security group and credentials${NC}"
-    exit 1
-fi
-
-echo ""
-echo "📋 Step 5: Building Application..."
+echo "📋 Step 4: Building Application..."
 echo "=================================="
 
 export DOTNET_ROOT=$HOME/.dotnet
@@ -143,20 +130,24 @@ dotnet publish -c Release -o ./publish
 echo -e "${GREEN}✅ Application built successfully${NC}"
 
 echo ""
-echo "📋 Step 6: Setting Up Database..."
+echo "📋 Step 5: Setting Up Database..."
 echo "================================="
 
-# Create database if not exists
-PGPASSWORD="$RDS_PASSWORD" psql -h "$RDS_ENDPOINT" -U postgres -d postgres -c "SELECT 1 FROM pg_database WHERE datname='mego_prod'" | grep -q 1 || \
-PGPASSWORD="$RDS_PASSWORD" psql -h "$RDS_ENDPOINT" -U postgres -d postgres -c "CREATE DATABASE mego_prod;"
-
-# Run migrations
+# Run migrations - EF Core connects directly to RDS via .NET/Npgsql
+# Will create database automatically if it doesn't exist
+# No psql needed - everything via .NET!
+echo "Running migrations (connects directly to RDS via .NET)..."
 dotnet ef database update
 
-echo -e "${GREEN}✅ Database setup complete${NC}"
+if [ $? -eq 0 ]; then
+    echo -e "${GREEN}✅ Database migrations completed${NC}"
+else
+    echo -e "${RED}❌ Migration failed. Check RDS connection and credentials${NC}"
+    exit 1
+fi
 
 echo ""
-echo "📋 Step 7: Creating Systemd Service..."
+echo "📋 Step 6: Creating Systemd Service..."
 echo "====================================="
 
 sudo tee /etc/systemd/system/$SERVICE_NAME.service > /dev/null <<EOF
@@ -189,7 +180,7 @@ sudo systemctl start $SERVICE_NAME
 echo -e "${GREEN}✅ Systemd service created and started${NC}"
 
 echo ""
-echo "📋 Step 8: Configuring Nginx..."
+echo "📋 Step 7: Configuring Nginx..."
 echo "==============================="
 
 EC2_IP=$(curl -s http://169.254.169.254/latest/meta-data/public-ipv4)
@@ -219,7 +210,7 @@ sudo nginx -t && sudo systemctl restart nginx
 echo -e "${GREEN}✅ Nginx configured${NC}"
 
 echo ""
-echo "📋 Step 9: Verifying Deployment..."
+echo "📋 Step 8: Verifying Deployment..."
 echo "=================================="
 
 sleep 5
@@ -254,4 +245,3 @@ echo "   sudo systemctl status $SERVICE_NAME"
 echo "   sudo journalctl -u $SERVICE_NAME -f"
 echo "   tail -f $APP_DIR/logs/app-*.log"
 echo ""
-
