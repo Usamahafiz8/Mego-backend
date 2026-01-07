@@ -82,7 +82,12 @@ echo 'export DOTNET_ROOT=$HOME/.dotnet' >> ~/.bashrc
 echo 'export PATH=$PATH:$HOME/.dotnet:$HOME/.dotnet/tools' >> ~/.bashrc
 source ~/.bashrc
 
-# Install PostgreSQL client (for testing)
+# Install PostgreSQL client (NOT server - we use RDS!)
+# Client is only needed for:
+# - Testing RDS connection
+# - Running migrations (dotnet ef database update)
+# - Debugging database issues
+# The application connects to RDS, not local PostgreSQL
 sudo apt install postgresql-client -y
 
 # Install Nginx (for reverse proxy)
