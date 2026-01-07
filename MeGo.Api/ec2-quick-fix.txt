@@ -1,0 +1,19 @@
+# Quick Fix Commands for EC2
+# Run these on your EC2 instance
+
+# Install .NET for ubuntu user (not root)
+wget https://dot.net/v1/dotnet-install.sh -O dotnet-install.sh
+chmod +x dotnet-install.sh
+./dotnet-install.sh --channel 8.0
+
+# Add to PATH
+echo 'export DOTNET_ROOT=$HOME/.dotnet' >> ~/.bashrc
+echo 'export PATH=$PATH:$HOME/.dotnet:$HOME/.dotnet/tools' >> ~/.bashrc
+
+# Reload shell
+source ~/.bashrc
+
+# Verify
+dotnet --version
+
+# Should show: 8.0.416 or similar

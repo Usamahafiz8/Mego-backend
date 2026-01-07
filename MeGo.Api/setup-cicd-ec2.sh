@@ -62,20 +62,23 @@ else
 fi
 
 echo ""
-echo "📋 Step 3: Installing PostgreSQL Client..."
+echo "📋 Step 3: PostgreSQL Client (Optional)..."
 echo "=========================================="
 
-# Install PostgreSQL CLIENT only (NOT server - we use RDS!)
-# Client is needed for:
-#   - Testing RDS connection
-#   - Running migrations (dotnet ef database update)
-#   - Database management and debugging
-# The application connects to AWS RDS, not local PostgreSQL
-if ! command -v psql &> /dev/null; then
-    sudo apt install -y postgresql-client
-    echo -e "${GREEN}✅ PostgreSQL client installed (for RDS connection)${NC}"
+# PostgreSQL client is OPTIONAL - not required!
+# EF Core migrations connect directly to RDS via .NET/Npgsql
+# Client is only useful for manual testing/debugging
+read -p "Install PostgreSQL client for testing? (y/N): " INSTALL_PSQL
+
+if [[ $INSTALL_PSQL =~ ^[Yy]$ ]]; then
+    if ! command -v psql &> /dev/null; then
+        sudo apt install -y postgresql-client
+        echo -e "${GREEN}✅ PostgreSQL client installed (optional tool)${NC}"
+    else
+        echo -e "${GREEN}✅ PostgreSQL client already installed${NC}"
+    fi
 else
-    echo -e "${GREEN}✅ PostgreSQL client already installed${NC}"
+    echo -e "${YELLOW}⏭️  Skipping PostgreSQL client (not needed - EF Core handles RDS connection)${NC}"
 fi
 
 echo ""

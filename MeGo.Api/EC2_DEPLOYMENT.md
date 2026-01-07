@@ -189,13 +189,22 @@ export ConnectionStrings__DefaultConnection="Host=database-1.c27g0uwm43k1.us-eas
 
 ### 6.2: Test RDS Connection from EC2
 
+**Option 1: Test via API Health Check (Recommended)**
 ```bash
-# Test connection
+# After deploying, test via health endpoint
+curl http://localhost:5144/health/detailed
+```
+
+**Option 2: Test via psql (if PostgreSQL client installed)**
+```bash
+# Only if you installed postgresql-client
 psql -h database-1.c27g0uwm43k1.us-east-1.rds.amazonaws.com \
      -U postgres \
      -d postgres \
      -c "SELECT version();"
 ```
+
+**Note**: PostgreSQL client is optional. EF Core connects directly to RDS via .NET.
 
 ---
 
