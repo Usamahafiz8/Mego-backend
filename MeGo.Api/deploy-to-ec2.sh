@@ -117,14 +117,21 @@ echo -e "${GREEN}✅ Configuration copied${NC}"
 # Step 8: Run migrations
 echo ""
 echo "📋 Step 8: Running database migrations..."
-cd "$APP_DIR"
+cd "$PROJECT_DIR"
 export ASPNETCORE_ENVIRONMENT=Production
 
-# Run migrations from published directory
-if dotnet ef database update --project "$PROJECT_DIR" --startup-project "$PROJECT_DIR" --verbosity quiet 2>/dev/null; then
-    echo -e "${GREEN}✅ Database migrations completed${NC}"
+# Check if EF tools are available
+if dotnet ef --version &> /dev/null; then
+    # Run migrations from project directory
+    if dotnet ef database update --verbosity quiet 2>&1; then
+        echo -e "${GREEN}✅ Database migrations completed${NC}"
+    else
+        echo -e "${YELLOW}⚠️  Migrations may have failed or database already up to date${NC}"
+        echo -e "${YELLOW}   Check connection string and RDS access${NC}"
+    fi
 else
-    echo -e "${YELLOW}⚠️  Migrations may have failed or database already up to date${NC}"
+    echo -e "${YELLOW}⚠️  EF Core tools not available - skipping migrations${NC}"
+    echo -e "${YELLOW}   You can run migrations manually later with: dotnet ef database update${NC}"
 fi
 
 # Step 9: Create systemd service
