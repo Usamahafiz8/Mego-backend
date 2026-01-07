@@ -48,13 +48,8 @@ else
     echo -e "${GREEN}✅ .NET SDK already installed${NC}"
 fi
 
-# Install PostgreSQL client
-if ! command -v psql &> /dev/null; then
-    echo "Installing PostgreSQL client..."
-    sudo apt install postgresql-client -y
-else
-    echo -e "${GREEN}✅ PostgreSQL client already installed${NC}"
-fi
+# PostgreSQL client NOT needed - EF Core connects directly to RDS via .NET/Npgsql
+echo "⏭️  Skipping PostgreSQL client (not needed - EF Core handles RDS connection)"
 
 # Install Nginx
 if ! command -v nginx &> /dev/null; then
