@@ -73,47 +73,21 @@ echo ""
 echo "📋 Step 3: Configuring Application..."
 echo "====================================="
 
-# Check if appsettings.Production.json exists
+# Check if appsettings.Production.json exists (should be prepared locally)
 if [ ! -f "appsettings.Production.json" ]; then
     echo -e "${YELLOW}⚠️  appsettings.Production.json not found${NC}"
-    echo "Creating from example..."
+    echo "Creating from example (you should run prepare-production-config.sh locally first)..."
     
     if [ -f "appsettings.Production.json.example" ]; then
         cp appsettings.Production.json.example appsettings.Production.json
-        echo -e "${YELLOW}⚠️  Please edit appsettings.Production.json with your RDS credentials${NC}"
+        echo -e "${YELLOW}⚠️  Using example file. Please run prepare-production-config.sh locally next time${NC}"
+        echo -e "${YELLOW}⚠️  For now, you'll need to edit appsettings.Production.json manually${NC}"
     else
         echo -e "${RED}❌ appsettings.Production.json.example not found${NC}"
         exit 1
     fi
-fi
-
-echo ""
-read -p "Enter RDS password: " -s RDS_PASSWORD
-echo ""
-
-# Update connection string in appsettings.Production.json
-if command -v python3 &> /dev/null; then
-    python3 << EOF
-import json
-import sys
-
-try:
-    with open('appsettings.Production.json', 'r') as f:
-        config = json.load(f)
-    
-    config['ConnectionStrings']['DefaultConnection'] = \
-        f"Host=$RDS_ENDPOINT;Port=5432;Database=mego_prod;Username=postgres;Password=$RDS_PASSWORD;SSL Mode=Require;Trust Server Certificate=true"
-    
-    with open('appsettings.Production.json', 'w') as f:
-        json.dump(config, f, indent=2)
-    
-    print("✅ Updated appsettings.Production.json")
-except Exception as e:
-    print(f"❌ Error: {e}")
-    sys.exit(1)
-EOF
 else
-    echo -e "${YELLOW}⚠️  Python3 not found. Please update appsettings.Production.json manually${NC}"
+    echo -e "${GREEN}✅ Found appsettings.Production.json (prepared locally)${NC}"
 fi
 
 echo ""
