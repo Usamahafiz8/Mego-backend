@@ -65,9 +65,15 @@ echo ""
 echo "📋 Step 3: Installing PostgreSQL Client..."
 echo "=========================================="
 
+# Install PostgreSQL CLIENT only (NOT server - we use RDS!)
+# Client is needed for:
+#   - Testing RDS connection
+#   - Running migrations (dotnet ef database update)
+#   - Database management and debugging
+# The application connects to AWS RDS, not local PostgreSQL
 if ! command -v psql &> /dev/null; then
     sudo apt install -y postgresql-client
-    echo -e "${GREEN}✅ PostgreSQL client installed${NC}"
+    echo -e "${GREEN}✅ PostgreSQL client installed (for RDS connection)${NC}"
 else
     echo -e "${GREEN}✅ PostgreSQL client already installed${NC}"
 fi
