@@ -56,8 +56,19 @@ echo -e "${GREEN}✅ .NET SDK ready${NC}"
 echo ""
 echo "📋 Step 3: Installing EF Core tools..."
 if ! dotnet ef --version &> /dev/null; then
-    dotnet tool install --global dotnet-ef --verbosity quiet
-    echo -e "${GREEN}✅ EF Core tools installed${NC}"
+    echo "Installing EF Core tools..."
+    # Try installing specific version to avoid package issues
+    dotnet tool install --global dotnet-ef --version 9.0.0 --verbosity quiet 2>/dev/null || \
+    dotnet tool install --global dotnet-ef --verbosity quiet 2>/dev/null || \
+    dotnet tool update --global dotnet-ef --verbosity quiet 2>/dev/null || true
+    
+    # Verify installation
+    if dotnet ef --version &> /dev/null; then
+        echo -e "${GREEN}✅ EF Core tools installed${NC}"
+    else
+        echo -e "${YELLOW}⚠️  EF Core tools installation had issues, but continuing...${NC}"
+        echo -e "${YELLOW}   Migrations will be skipped if tools are not available${NC}"
+    fi
 else
     echo -e "${GREEN}✅ EF Core tools already installed${NC}"
 fi
