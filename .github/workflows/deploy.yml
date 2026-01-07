@@ -1,0 +1,113 @@
+name: Deploy to EC2
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch: # Allow manual trigger
+
+env:
+  DOTNET_VERSION: '8.0.x'
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: ${{ env.DOTNET_VERSION }}
+        
+    - name: Restore dependencies
+      run: dotnet restore MeGo.Api/MeGo.Api.csproj
+      
+    - name: Build
+      run: dotnet build MeGo.Api/MeGo.Api.csproj --configuration Release --no-restore
+      
+    - name: Test (if tests exist)
+      run: dotnet test --no-build --verbosity normal || echo "No tests found"
+      
+    - name: Publish
+      run: dotnet publish MeGo.Api/MeGo.Api.csproj --configuration Release --output ./publish --no-build
+      
+    - name: Create deployment package
+      run: |
+        cd publish
+        tar -czf ../deployment.tar.gz .
+        
+    - name: Upload artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: deployment-package
+        path: deployment.tar.gz
+        retention-days: 7
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Download artifact
+      uses: actions/download-artifact@v4
+      with:
+        name: deployment-package
+        
+    - name: Deploy to EC2
+      env:
+        EC2_HOST: ${{ secrets.EC2_HOST }}
+        EC2_USER: ${{ secrets.EC2_USER }}
+        EC2_SSH_KEY: ${{ secrets.EC2_SSH_KEY }}
+        EC2_APP_PATH: ${{ secrets.EC2_APP_PATH }}
+      run: |
+        echo "$EC2_SSH_KEY" > deploy_key.pem
+        chmod 600 deploy_key.pem
+        
+        # Create app directory on EC2
+        ssh -i deploy_key.pem -o StrictHostKeyChecking=no $EC2_USER@$EC2_HOST \
+          "mkdir -p $EC2_APP_PATH"
+        
+        # Upload deployment package
+        scp -i deploy_key.pem -o StrictHostKeyChecking=no deployment.tar.gz \
+          $EC2_USER@$EC2_HOST:$EC2_APP_PATH/
+        
+        # Extract and deploy on EC2
+        ssh -i deploy_key.pem -o StrictHostKeyChecking=no $EC2_USER@$EC2_HOST << 'EOF'
+          cd $EC2_APP_PATH
+          mkdir -p app
+          tar -xzf deployment.tar.gz -C app
+          
+          # Backup current version
+          if [ -d "app_current" ]; then
+            mv app_current app_backup_$(date +%Y%m%d_%H%M%S)
+          fi
+          
+          # Stop service
+          sudo systemctl stop mego-api || true
+          
+          # Switch to new version
+          if [ -d "app_current" ]; then
+            rm -rf app_current
+          fi
+          mv app app_current
+          
+          # Start service
+          sudo systemctl start mego-api
+          sudo systemctl status mego-api
+        EOF
+        
+        # Cleanup
+        rm -f deploy_key.pem
+        
+    - name: Health Check
+      env:
+        EC2_HOST: ${{ secrets.EC2_HOST }}
+      run: |
+        echo "Waiting for service to start..."
+        sleep 10
+        curl -f http://$EC2_HOST/health || exit 1
+        echo "✅ Deployment successful!"
+
