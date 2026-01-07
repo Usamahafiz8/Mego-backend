@@ -143,7 +143,7 @@ Description=MeGo API Backend
 After=network.target
 
 [Service]
-Type=notify
+Type=simple
 User=ubuntu
 WorkingDirectory=$APP_DIR
 Environment=ASPNETCORE_ENVIRONMENT=Production
@@ -154,6 +154,8 @@ ExecStart=$HOME/.dotnet/dotnet $APP_DIR/MeGo.Api.dll
 Restart=always
 RestartSec=10
 KillSignal=SIGINT
+TimeoutStartSec=60
+TimeoutStopSec=30
 SyslogIdentifier=$SERVICE_NAME
 
 [Install]
