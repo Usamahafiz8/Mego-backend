@@ -17,7 +17,9 @@ NC='\033[0m'
 
 # Configuration
 APP_DIR="/var/www/mego"
-PROJECT_DIR="$HOME/Mego-backend/MeGo.Api"
+# Get the directory where this script is located
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_DIR="$SCRIPT_DIR"
 SERVICE_NAME="mego-api"
 RDS_ENDPOINT="database-1.c27g0uwm43k1.us-east-1.rds.amazonaws.com"
 
@@ -27,8 +29,19 @@ if [ "$EUID" -eq 0 ]; then
     exit 1
 fi
 
-# Step 1: Ensure .NET is in PATH
-echo "📋 Step 1: Setting up .NET environment..."
+# Step 1: Navigate to project directory (where script is located)
+echo "📋 Step 1: Locating project..."
+cd "$PROJECT_DIR" || {
+    echo -e "${RED}❌ Cannot access project directory: $PROJECT_DIR${NC}"
+    echo "Please run this script from the MeGo.Api directory"
+    exit 1
+}
+
+echo -e "${GREEN}✅ Project directory: $(pwd)${NC}"
+
+# Step 2: Ensure .NET is in PATH
+echo ""
+echo "📋 Step 2: Setting up .NET environment..."
 export DOTNET_ROOT=$HOME/.dotnet
 export PATH=$PATH:$HOME/.dotnet:$HOME/.dotnet/tools
 
@@ -39,23 +52,15 @@ fi
 
 echo -e "${GREEN}✅ .NET SDK ready${NC}"
 
-# Step 2: Install EF Tools if needed
+# Step 3: Install EF Tools if needed
 echo ""
-echo "📋 Step 2: Installing EF Core tools..."
+echo "📋 Step 3: Installing EF Core tools..."
 if ! dotnet ef --version &> /dev/null; then
     dotnet tool install --global dotnet-ef --verbosity quiet
     echo -e "${GREEN}✅ EF Core tools installed${NC}"
 else
     echo -e "${GREEN}✅ EF Core tools already installed${NC}"
 fi
-
-# Step 3: Navigate to project
-echo ""
-echo "📋 Step 3: Preparing project..."
-cd "$PROJECT_DIR" || {
-    echo -e "${RED}❌ Project directory not found: $PROJECT_DIR${NC}"
-    exit 1
-}
 
 # Step 4: Create production config if not exists
 echo ""
@@ -70,9 +75,13 @@ if [ ! -f "appsettings.Production.json" ]; then
         echo "Update: ConnectionStrings.DefaultConnection with your RDS password"
         exit 1
     else
-        echo -e "${RED}❌ appsettings.Production.json.example not found${NC}"
+        echo -e "${RED}❌ appsettings.Production.json.example not found in $(pwd)${NC}"
+        echo "Files in current directory:"
+        ls -la *.json 2>/dev/null || echo "No JSON files found"
         exit 1
     fi
+else
+    echo -e "${GREEN}✅ Production config found${NC}"
 fi
 
 # Step 5: Create app directory
