@@ -24,7 +24,17 @@ namespace MeGo.Api.Services
                 {
                     using var scope = _serviceProvider.CreateScope();
                     var context = scope.ServiceProvider.GetRequiredService<AppDbContext>();
-                    var notificationService = scope.ServiceProvider.GetRequiredService<NotificationService>();
+                    
+                    // Get NotificationService, but handle if it fails to initialize
+                    NotificationService? notificationService = null;
+                    try
+                    {
+                        notificationService = scope.ServiceProvider.GetRequiredService<NotificationService>();
+                    }
+                    catch (Exception ex)
+                    {
+                        _logger.LogWarning(ex, "NotificationService not available - continuing without push notifications");
+                    }
 
                     // Check for inactive ads (no views/clicks in last 7 days)
                     var inactiveAds = await context.Ads
