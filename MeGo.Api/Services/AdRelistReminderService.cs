@@ -75,14 +75,17 @@ namespace MeGo.Api.Services
                             else if (reminder.ReminderSentAt == null || 
                                 reminder.ReminderSentAt < DateTime.UtcNow.AddDays(-1))
                             {
-                                // Send reminder notification
-                                await notificationService.SendNotificationAsync(
-                                    ad.UserId,
-                                    "Relist Your Ad",
-                                    $"Your ad '{ad.Title}' hasn't received views recently. Consider relisting it to get more visibility!",
-                                    "ad_relist_reminder",
-                                    ad.Id.ToString()
-                                );
+                                // Send reminder notification (if service available)
+                                if (notificationService != null)
+                                {
+                                    await notificationService.SendNotificationAsync(
+                                        ad.UserId,
+                                        "Relist Your Ad",
+                                        $"Your ad '{ad.Title}' hasn't received views recently. Consider relisting it to get more visibility!",
+                                        "ad_relist_reminder",
+                                        ad.Id.ToString()
+                                    );
+                                }
 
                                 reminder.ReminderSentAt = DateTime.UtcNow;
                                 await context.SaveChangesAsync(stoppingToken);
